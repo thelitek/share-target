@@ -45,7 +45,21 @@
       "src": "images/icons/icon-512x512.png",
       "sizes": "512x512",
       "type": "image/png"
-    }
+    },
   ],
-  "splash_pages": null
+  "splash_pages": null,
+  "share_target": {
+    "action": "/process.html",
+    "params": {
+      "title": "name",
+      "text": "description",
+      "url": "link",
+      "files": [
+        {
+          "name": "shared_image",
+          "accepts": "image/jpeg"
+        }
+      ]
+    }
+  }
 }
