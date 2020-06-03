@@ -59,7 +59,7 @@
       "files": [
         {
           "name": "shared_image",
-          "accepts": "image/jpeg"
+          "accept": ["image/*"]
         }
       ]
     }
